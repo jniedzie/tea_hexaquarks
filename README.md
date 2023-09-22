@@ -76,7 +76,7 @@ TEA has a very simple structure, with libraries, apps and configs:
 The `apps` directory contains apps, which use the library to perform certain tasks, such as skimming the data or creating histograms. Whenever you want to implement a new app, you will simply call the `create.py` script first to create a skeleton for your new app:
 
 ```
-python craete.py --type app --name ttH_loose_skimming --path ttH_analysis
+python create.py --type app --name ttH_loose_skimming --path ttH_analysis
 ```
 
 This will automatically create required directories, a C++ file, and a Python config. You also don't need to worry about CMake, linking or any of these things - it will work automagically.
